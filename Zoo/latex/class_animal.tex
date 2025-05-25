@@ -1,0 +1,82 @@
+\doxysection{Animal Class Reference}
+\hypertarget{class_animal}{}\label{class_animal}\index{Animal@{Animal}}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_animal_a83132a903f75e03a54772ba3b3c22f3d}\label{class_animal_a83132a903f75e03a54772ba3b3c22f3d} 
+enum {\bfseries Type} \{ {\bfseries LAND}
+, {\bfseries AQUATIC}
+ \}
+\item 
+\Hypertarget{class_animal_a10ae8fa2493664a1f2ff59df5ba2a197}\label{class_animal_a10ae8fa2493664a1f2ff59df5ba2a197} 
+enum {\bfseries Climate} \{ {\bfseries DESERT}
+, {\bfseries FOREST}
+, {\bfseries ARCTIC}
+, {\bfseries OCEAN}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_animal_ad8912997be12eff56286149e1ce6491c}\label{class_animal_ad8912997be12eff56286149e1ce6491c} 
+{\bfseries Animal} (string n, string s, int a, int w, Climate c, bool carn, char g, Type t, string parent1="{}"{}, string parent2="{}"{})
+\item 
+\Hypertarget{class_animal_af4e9475a56c570f228d5aa3d5b07559c}\label{class_animal_af4e9475a56c570f228d5aa3d5b07559c} 
+bool {\bfseries is\+Aquatic} () const
+\item 
+\Hypertarget{class_animal_a6aa6a856670c9c301cd14e7ba440364b}\label{class_animal_a6aa6a856670c9c301cd14e7ba440364b} 
+int {\bfseries calculate\+Maintenance\+Cost} () const
+\item 
+\Hypertarget{class_animal_adeb5ca19b822972c58c7f6a63d29f0f8}\label{class_animal_adeb5ca19b822972c58c7f6a63d29f0f8} 
+int {\bfseries calculate\+Price} () const
+\item 
+\Hypertarget{class_animal_aeb3dd89243fc5de18945df5f7ee0ab24}\label{class_animal_aeb3dd89243fc5de18945df5f7ee0ab24} 
+void {\bfseries grow\+Older} ()
+\item 
+\Hypertarget{class_animal_ab3aecb4b53c5cd41421474cb5a3a2bbc}\label{class_animal_ab3aecb4b53c5cd41421474cb5a3a2bbc} 
+void {\bfseries print\+Parents} () const
+\item 
+\Hypertarget{class_animal_af1026bdc8810ef8f737a8d289040f3c0}\label{class_animal_af1026bdc8810ef8f737a8d289040f3c0} 
+bool {\bfseries dies\+Of\+Old\+Age} () const
+\item 
+\Hypertarget{class_animal_a92d4e93d9cc719dda6360865857d748c}\label{class_animal_a92d4e93d9cc719dda6360865857d748c} 
+\mbox{\hyperlink{class_animal}{Animal}} {\bfseries operator+} (const \mbox{\hyperlink{class_animal}{Animal}} \&other)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_animal_a9cf3bfd9070daec7b3bbc87cbd958f35}\label{class_animal_a9cf3bfd9070daec7b3bbc87cbd958f35} 
+string {\bfseries name}
+\item 
+\Hypertarget{class_animal_a70a223fc101b56962088b16a8b18534b}\label{class_animal_a70a223fc101b56962088b16a8b18534b} 
+string {\bfseries species}
+\item 
+\Hypertarget{class_animal_a64181a3d57dab7e26a5b772d1e46474c}\label{class_animal_a64181a3d57dab7e26a5b772d1e46474c} 
+int {\bfseries age\+In\+Days}
+\item 
+\Hypertarget{class_animal_a9a3b22f243f7109c57f36b3c660feb6e}\label{class_animal_a9a3b22f243f7109c57f36b3c660feb6e} 
+int {\bfseries weight}
+\item 
+\Hypertarget{class_animal_aa33ee4b38efd0d69dfbb3c4273b347df}\label{class_animal_aa33ee4b38efd0d69dfbb3c4273b347df} 
+enum Animal\+::\+Climate {\bfseries climate}
+\item 
+\Hypertarget{class_animal_a14e03f4ca6b1eb8f6a3f4b585c2cde2b}\label{class_animal_a14e03f4ca6b1eb8f6a3f4b585c2cde2b} 
+bool {\bfseries is\+Carnivore}
+\item 
+\Hypertarget{class_animal_a06e648f316f8a1df7ad5edc81360eddd}\label{class_animal_a06e648f316f8a1df7ad5edc81360eddd} 
+bool {\bfseries is\+Infected}
+\item 
+\Hypertarget{class_animal_a738d9786d1549040b0f324780966bc57}\label{class_animal_a738d9786d1549040b0f324780966bc57} 
+char {\bfseries gender}
+\item 
+\Hypertarget{class_animal_a0d85356dfe79acf519c2f5d2706aa8ce}\label{class_animal_a0d85356dfe79acf519c2f5d2706aa8ce} 
+pair$<$ string, string $>$ {\bfseries parents}
+\item 
+\Hypertarget{class_animal_a98ff69e5efae10516efa3d4a767f60ee}\label{class_animal_a98ff69e5efae10516efa3d4a767f60ee} 
+Type {\bfseries type}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Source.\+cpp\end{DoxyCompactItemize}
