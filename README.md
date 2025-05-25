@@ -32,7 +32,7 @@
 ## Установка
 
 1. **Клонируйте репозиторий:**
-git clone https://github.com/ miniclever/ZooSimulatorGame.git
+git clone https://github.com/miniclever/ZooSimulatorGame.git
 cd ZooSimulatorGame
 2. Скомпилируйте проект:
 Убедитесь, что у вас установлен компилятор C++ (например, g++).
